@@ -4,11 +4,18 @@ import math
 import pandas as pd
 import streamlit as st
 
-column_left = st.beta_columns(1)
-with column_left:
     
 total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
 num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
+
+Track: {
+  style: {
+    paddingBottom: 0,
+    paddingLeft: spacing.halfSmFont,
+    paddingRight: spacing.halfSmFont,
+    paddingTop: spacing.twoThirdsSmFont,
+  },
+}
 
 Point = namedtuple('Point', 'x y')
 data = []
