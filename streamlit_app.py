@@ -2,7 +2,7 @@ from collections import namedtuple
 import altair as alt
 import math
 import pandas as pd
-import streamlit as st123123121222222222222
+import streamlit as st
 
 """
 # Welcome to Streamlit!
