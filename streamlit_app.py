@@ -28,7 +28,7 @@ for curr_point_num in range(total_points):
 
 st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=600)
     .mark_circle(color='#0068c9', opacity=0.5)
-    .encode(x='x:Q', y='y:Q'))
+    .encode(x='ff:Q', y='y:Q'))
     
 
 hide_menu_style = """
