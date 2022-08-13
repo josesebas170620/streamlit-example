@@ -10,7 +10,7 @@ with st.echo(code_location='below'):
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 
     Point = namedtuple('Point', 'x y')
-    data = []
+   
 
     points_per_turn = total_points / num_turns
 
