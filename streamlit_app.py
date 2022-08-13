@@ -1,4 +1,6 @@
-pip install plotly_express==0.4.0
+pip install plotly-express
+pip install pandas openpyxl
+pip install streamlit
 
 import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px  # pip install plotly-express
