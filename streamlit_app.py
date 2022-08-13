@@ -26,9 +26,9 @@ for curr_point_num in range(total_points):
     data.append(Point(x, y))
 
 
-st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=600)
+st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=600, title = "Graphic first")
     .mark_circle(color='#0068c9', opacity=0.5)
-    .encode(x='x:Q', y='y:Q'))
+    .encode(x='x:Q', y='y:Q', x = "Date", y  = "First"))
     
 
 hide_menu_style = """
