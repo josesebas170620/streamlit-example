@@ -1,4 +1,4 @@
-pip install plotly-express
+
 pip install pandas openpyxl
 pip install streamlit
 
