@@ -1,4 +1,4 @@
-pip install plotly-express
+pip install plotly_express==0.4.0
 
 import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px  # pip install plotly-express
